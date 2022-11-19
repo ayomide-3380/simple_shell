@@ -1,20 +1,20 @@
 .TH man "6 April 2021" "simple_shell man page"
 
 .SH NAME
-simple_shell - takes command from user input into prompt 
+simple_shell - takes command from user input into prompt
 and does what the user need to do
 
 .SH SYNONPSIS
-.B simple_shell 
+.B simple_shell
 [command_string | file] [options]
 
 .SH DESCRIPTION
-.B simple_shell 
-is a command language interpreter 
+.B simple_shell
+is a command language interpreter
 that executes commands read from the standard input or from a file.
 
 .SH ARGUMENTS
-If arguments remain after option processing the first argument 
+If arguments remain after option processing the first argument
 is assumed to be the name of a file containing shell commands.
 simple_shell reads and executes commands from this file, then exit.
 simple_shell exit status is the exit status of the last command executed
@@ -24,18 +24,18 @@ The executed files are always found in the PATH.
 .SH DEFINITIONS
 The following definitions are used throughout the rest of this document.
 .P
-.B blank  
+.B blank
 A space or a tab.
 .P
 .B word
 A sequence of characters considered as a single unit by the simple_shell.
-also known as 
+also known as
 .B token.
 .P
 .B name
 A word consisting only of alphanumeric characters and underscores,
 and beginning with an alphabetic character or an underscore.
-Also referred to as an 
+Also referred to as an
 .B identifier.
 
 .SH SIMPLE_SHELL GRAMMAR
@@ -75,7 +75,4 @@ exit the program and print 0.
 exit program.
 
 .SH AUTHORS
-.br
-.B Adrien Millot : 2701@holbertonschool.com
-.br
-.B Alrick Deperiers : 2794@holbertonschool.com
+Alao daniel

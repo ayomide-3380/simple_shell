@@ -27,10 +27,10 @@ The shell should:
 • Handle errors.
 • You have to handle the “end of file” condition (Ctrl+D)
 
-#### Usages: 
+#### Usages:
 
 ````
-julien@ubuntu:~/shell$ ./shell 
+julien@ubuntu:~/shell$ ./shell
 #cisfun$ ls
 ./shell: No such file or directory
 #cisfun$ /bin/ls
@@ -53,7 +53,7 @@ env-environ.c  exec    fork    mypid   ppid   printenv  promptc  shell     stat 
 
 Handle command lines with arguments
 
-#### Usage: 
+#### Usage:
 
 ````
 /bin/ls -l
